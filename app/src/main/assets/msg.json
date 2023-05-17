@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "text": "Hello, unni!",
+      "timestamp": "11:00 am",
+      "isSendByMe": true
+    },
+    {
+      "text": "hey",
+      "timestamp": "12:01 pm",
+      "isSendByMe": false
+    },
+    {
+      "text": "how are you?",
+      "timestamp": "12:02 pm",
+      "isSendByMe": true
+    },
+    {
+      "text": ":)",
+      "timestamp": "12:24 pm",
+      "isSendByMe": true
+    }
+  ]
+}

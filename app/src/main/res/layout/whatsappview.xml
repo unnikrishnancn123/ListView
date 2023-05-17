@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+
+    <TextView
+        android:id="@+id/tvFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="123dp"
+        android:text="From:"
+        android:textAlignment="viewStart"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/border2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="-609dp"
+        android:text="Message body"
+        android:textAllCaps="false"
+        android:textColor="#403F3F"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="82dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="47dp"
+        android:text="Timestamp" />
+
+    <TextView
+        android:id="@+id/border2"
+        android:layout_width="397dp"
+        android:layout_height="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="@+id/tvMessage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="620dp"
+        android:background="#000000" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_profile_image"
+        android:layout_width="75dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="326dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/sunset" />
+
+</RelativeLayout>
+
+
+
+

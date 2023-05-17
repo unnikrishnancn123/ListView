@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <!-- action button for search -->
+
+    <item android:title="camera"
+        android:id="@+id/camera"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/camera_foreground"/>
+
+
+    <item android:title="search"
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/search_foreground"
+       />
+        <item
+            android:id="@+id/nav_account"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+
+
+
+</menu>
